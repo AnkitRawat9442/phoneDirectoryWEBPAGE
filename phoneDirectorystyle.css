@@ -1,0 +1,100 @@
+*{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+
+    background-color: rgb(94, 28, 218);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height:100vh;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.addListItems{
+    background-color: rgb(187, 142, 142);
+    padding :20px;
+    border-radius: 7px;
+    visibility: hidden;
+}
+.addListItems header{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.addListItems form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+   
+}
+.addListItems form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border : 1px solid #999;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.addListItems form label{
+   font-size: 18px;
+   font-weight: bold;
+   
+}
+.addListItems form button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+
+.Wrapper{
+    background-color: rgb(236, 227, 227);
+    padding: 30px;
+    border-radius: 7px;
+}
+.Wrapper header{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.NavigationBar
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   
+
+}
+.NavigationBar #add{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+   width :30px;
+}
+.search_input{
+    font-size: 15px;
+}
+ .search_btn
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.name_list{
+    margin-left: 100px;
+
+}
